@@ -83,7 +83,7 @@ open class FloatingNotificationBanner: GrowingNotificationBanner {
             make.edges.equalTo(contentView)
         }
         
-        spacerView.backgroundColor = customView.backgroundColor
+//        spacerView.backgroundColor = customView.backgroundColor
     }
     
     /**
