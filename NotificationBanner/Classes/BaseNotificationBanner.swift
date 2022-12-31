@@ -510,7 +510,7 @@ open class BaseNotificationBanner: UIView {
      */
     internal var heightAdjustment: CGFloat {
         if NotificationBannerUtilities.hasDynamicIsland() {
-            return 16.0
+            return 20.0
         }
         
         // iOS 13 does not allow covering the status bar on non-notch iPhones
